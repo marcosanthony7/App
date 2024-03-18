@@ -6,9 +6,9 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>Lista de Gatos</Text>
-      <Gato/>
-      <Gato/>
-      <Gato/>
+      <Gato nome="Black" />
+      <Gato nome="Marcos" />
+      <Gato nome="Arthur" />
       <StatusBar style="auto" />
     </View>
   );
