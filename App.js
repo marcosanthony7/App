@@ -5,7 +5,9 @@ import Gato from './Gato';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Marcos Anthony de Andrade Silva</Text>
+      <Text>Lista de Gatos</Text>
+      <Gato/>
+      <Gato/>
       <Gato/>
       <StatusBar style="auto" />
     </View>
