@@ -7,15 +7,15 @@ function App() {
   return (
     <View style={styles.container}>
       <Text>Lista de Gatos</Text>
-      <Gato nome="Black" idade={16}/>
-      <Gato nome="Marcos" idade={17}/>
-      <Gato nome="Arthur" idade={17}/>
+      <Gato idade={16}/>
+      <Gato idade={17}/>
+      <Gato idade={17}/>
       <StatusBar style="auto" />
     </View>
   );
 }
 
-export default Cliques;
+export default App;
 
 const styles = StyleSheet.create({
   container: {
